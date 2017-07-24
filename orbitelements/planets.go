@@ -27,6 +27,14 @@ func NewEarth() *Planet {
 			PeriapsisDate: time.Date(2017, time.January, 1, 0, 0, 0, 0, nil),
 			ApoapsisDate:  time.Date(2017, time.July, 3, 0, 0, 0, 0, nil),
 		},
+		PlanetElement: &PlanetElement{
+			Radius:       float64(3959),  // mi
+			Mass:         float64(5.972), // × 10^24 kg
+			Gravity:      float64(9.807), // m/s²
+			Density:      float64(5.51),  // g/cm³
+			StarSystem:   "Sol",
+			OrbitsAround: "Sol",
+		},
 		Solstice: &Solstice{
 			Top:    time.Date(2017, time.March, 21, 0, 0, 0, 0, nil),
 			Bottom: time.Date(2017, time.September, 23, 0, 0, 0, 0, nil),

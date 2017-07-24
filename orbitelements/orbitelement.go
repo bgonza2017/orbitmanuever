@@ -43,6 +43,7 @@ type Planet struct {
 	OrbitElement     *OrbitElement
 	OrbitDateElement *OrbitDateElement
 	Solstice         *Solstice
+	PlanetElement    *PlanetElement
 }
 
 //NewOrbitElement ... todo

@@ -5,6 +5,7 @@ const ()
 var ()
 
 //NewEarth ... todo
+//https://en.wikipedia.org/wiki/Earth%27s_orbit
 func NewEarth() *OrbitElement {
 	return &OrbitElement{
 		SemiMajorAxis:            float64(92.96),
